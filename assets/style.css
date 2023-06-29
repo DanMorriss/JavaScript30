@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right top, #051937, #0c2540, #163048, #223c50, #2f4858);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 1rem;
+}
+
+h1 {
+    color: #ffc600;
+    padding: 1rem;
+    text-align: center;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+}
+p {
+    padding-left: 1rem;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    transition: ease .4s;
+}
+
+.lesson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(25% - 2rem);
+    height: 15rem;
+    margin: 1rem;
+    background-color: antiquewhite;
+    box-shadow: 0 0 10px 4px rgba(203, 203, 203, 0.2);
+    transition: ease .4s;
+}
+
+.lesson-link {
+    width: calc(25% - 2rem);
+}
+
+.lesson:hover {
+    transform: scale(1.1);
+    transition: ease .4s;
+}
+
+.lesson p {
+    color: #1c1c1c;
+    margin-top: 1rem;
+}
+
+.lesson img {
+    width: 100%;
+}
