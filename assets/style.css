@@ -25,12 +25,15 @@ h2 {
 }
 p {
     padding-left: 1rem;
+    padding-right: 1rem;
     text-align: justify;
+    font-family: monospace;
 }
 
 a {
     text-decoration: none;
     transition: ease .4s;
+    color: #fff;
 }
 
 .lesson {
@@ -38,16 +41,15 @@ a {
     flex-direction: column;
     align-items: center;
     width: calc(25% - 2rem);
-    height: 15rem;
+    min-width: 10rem;
+    height: 12rem;
     margin: 1rem;
     background-color: antiquewhite;
     box-shadow: 0 0 10px 4px rgba(203, 203, 203, 0.2);
     transition: ease .4s;
 }
 
-.lesson-link {
-    width: calc(25% - 2rem);
-}
+
 
 .lesson:hover {
     transform: scale(1.1);
